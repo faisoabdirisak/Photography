@@ -299,6 +299,7 @@ button:hover{
   .contact .row form{
     flex:1 1 50rem;
     padding:1rem;
+    background-color: #006666;
   }
   
   .contact .row form .inputBox{
@@ -355,4 +356,65 @@ button:hover{
   
   .footer .credit span{
     color:var(--blue2);
+  }
+
+
+
+  .form > script{
+    width: 100%; /* Ensure the iframe takes full width */
+    height: 800px; /* Adjust the height as needed */
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+ 
+  }
+
+
+  
+  /* Style individual form elements */
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="tel"] {
+  
+    padding:1rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    width:100%;
+    
+  }
+  .form textarea{
+    width:100%;
+    /* resize: none; */
+    height:25rem;
+    /* border: 2rem slid var(--hover); */
+  }
+  
+  
+ 
+  .form input[type="submit"] {
+    background:var(--hover);
+    color: #f7f7f7;
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+ 
+  .form input[type="submit"]:hover {
+     background:var(--blue);
+  }
+
+    .form input[type="reset"] {
+    background:var(--blue2);
+    color: #f7f7f7;
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
   }
